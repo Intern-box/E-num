@@ -1,5 +1,5 @@
 ﻿
-namespace E_num_0._0._3
+namespace E_num
 {
     partial class VvodDannih
     {

@@ -3,7 +3,7 @@ using System.IO;
 using System.Management;
 using System.Windows.Forms;
 
-namespace E_num_0._0._3
+namespace E_num
 {
     public partial class GlavnoeOkno : Form
     {
@@ -135,6 +135,13 @@ namespace E_num_0._0._3
             VvodDannih zaprosDannih = new VvodDannih();
 
             zaprosDannih.ShowDialog();
+
+            if (VvodDannih.passwordUser == "")
+            {
+                poleVivodaDannih.Text += "\nПароль не должен быть пустым!";
+
+                return;
+            }
 
             ConnectionOptions options = new ConnectionOptions();
             options.Username = VvodDannih.nameUser;

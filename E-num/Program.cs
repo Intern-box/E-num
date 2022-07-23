@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace E_num_0._0._3
+namespace E_num
 {
     static class Program
     {

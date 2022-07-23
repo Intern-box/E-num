@@ -1,5 +1,5 @@
 ﻿
-namespace E_num_0._0._3
+namespace E_num
 {
     partial class GlavnoeOkno
     {
@@ -106,7 +106,7 @@ namespace E_num_0._0._3
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "GlavnoeOkno";
-            this.Text = "E-num 0.0.3";
+            this.Text = "E-num 1.0";
             this.ResumeLayout(false);
             this.PerformLayout();
 

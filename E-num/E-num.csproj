@@ -47,12 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="OknoSoshibkoi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="OknoSoshibkoi.Designer.cs">
-      <DependentUpon>OknoSoshibkoi.cs</DependentUpon>
-    </Compile>
     <Compile Include="VvodDannih.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,9 +63,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="GlavnoeOkno.resx">
       <DependentUpon>GlavnoeOkno.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="OknoSoshibkoi.resx">
-      <DependentUpon>OknoSoshibkoi.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

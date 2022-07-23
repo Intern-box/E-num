@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace E_num_0._0._3
+namespace E_num
 {
     public partial class VvodDannih : Form
     {
@@ -18,15 +18,6 @@ namespace E_num_0._0._3
             addressIP = vvodNameOrIP.Text;
             nameUser = vvodNameUser.Text;
             passwordUser = vvodPasswordUser.Text;
-
-            if (passwordUser == "")
-            {
-                OknoSoshibkoi oknoSoshibkoi = new OknoSoshibkoi();
-
-                oknoSoshibkoi.ShowDialog();
-
-                return;
-            }
 
             Close();
         }
