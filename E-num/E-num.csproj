@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{67F6C715-9E9C-42E5-B525-EE9DC6A6C404}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>E_num_0._0._3</RootNamespace>
-    <AssemblyName>E-num 0.0.3</AssemblyName>
+    <RootNamespace>E_num</RootNamespace>
+    <AssemblyName>E-num</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -72,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="VvodDannih.resx">
       <DependentUpon>VvodDannih.cs</DependentUpon>
